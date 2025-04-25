@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vision-svc
+  namespace: adeola-ns
+spec:
+  selector:
+    app: vision
+  ports:
+  - port: 5000
+    targetPort: 5000
+    nodePort: 34245
+  type: NodePort
