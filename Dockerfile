@@ -1,5 +1,5 @@
 # FOR BACK-END DEPLOYMENT... (FLASK)
-FROM python:3.13.4-slim
+FROM python:3.13-slim
 COPY . .
 COPY requirements.txt ./
 RUN pip install -r ./requirements.txt
