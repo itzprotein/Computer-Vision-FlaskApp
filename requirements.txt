@@ -9,4 +9,4 @@ imageai
 Flask-PyMongo
 pymongo
 keras
-tensorflow
+# tensorflow
